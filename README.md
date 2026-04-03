@@ -19,6 +19,7 @@ scripts/
 | # | Podcast | Invité | Thème | Lien |
 |---|---------|--------|-------|------|
 | 1 | Data & IA | Matthias (N26) | Data for Marketing — MMM & User Value | [→](episodes/n26_matthias_data_marketing/summary.md) |
+| 2 | Data & IA | Christophe Blépharic (BLEF) | Fusion Fivetran × dbt — stratégie & impacts | [→](episodes/blef_fivetran_x_dbt/summary.md) |
 
 ## Setup
 ```bash
@@ -40,10 +41,9 @@ yt-dlp -o "audio/episode.webm" "https://www.youtube.com/watch?v=..."
 
 1. Télécharge le fichier audio dans `audio/` via la commande ci-dessus
 2. Ouvre `scripts/extract_transcript.ipynb`
-3. Mets à jour la variable `AUDIO_PATH` en haut du notebook (`../audio/episode.mp3`)
+3. Mets à jour `EPISODE_SLUG` et `AUDIO_FILE` dans la cellule de configuration en haut du notebook
 4. **Kernel > Restart & Clear Outputs** puis **Run All**
-5. La transcription est générée dans `audio/transcript.txt`
-6. Déplace-la dans `episodes/{slug}/transcript.txt`
+5. La transcription est générée dans `episodes/{slug}/transcript.txt`
 
 ## ⚠️ Avant chaque commit
 
