@@ -24,11 +24,14 @@ scripts/
 ## Setup
 ```bash
 # Depuis la racine du repo
-python -m venv scripts/venv
-scripts\venv\Scripts\activate        # Windows
-# source scripts/venv/bin/activate   # Mac / Linux
+python -m venv venv
+venv\Scripts\activate                # Windows
+# source venv/bin/activate           # Mac / Linux
 
 pip install -r scripts/requirements.txt
+
+# Activer le strip automatique des outputs Jupyter avant chaque commit
+nbstripout --install
 ```
 
 ## Téléchargement
