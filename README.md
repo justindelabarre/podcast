@@ -5,12 +5,14 @@ Archive personnelle de notes et résumés d'épisodes de podcasts data.
 ## Structure
 
 ```
+audio/                        # Fichiers audio locaux (non commités)
 episodes/
 └── {slug_episode}/
-    ├── transcript.txt   # Transcription brute
-    └── summary.md       # Résumé structuré
+    ├── transcript.txt        # Transcription brute
+    └── summary.md            # Résumé structuré
 scripts/
-└── extract_transcript.ipynb  # Notebook de téléchargement / nettoyage
+├── extract_transcript.ipynb  # Notebook de transcription (Whisper)
+└── requirements.txt
 ```
 
 ## Épisodes
@@ -19,7 +21,26 @@ scripts/
 |---|---------|--------|-------|------|
 | 1 | Data & IA | Matthias (N26) | Data for Marketing — MMM & User Value | [→](episodes/n26_matthias_data_marketing/summary.md) |
 
-## Stack utilisée
+## Setup
 
-- Python (Databricks / Jupyter)
-- Whisper / YouTube DL pour les transcriptions (voir `scripts/`)
+```bash
+# Depuis la racine du repo
+python -m venv scripts/venv
+scripts\venv\Scripts\activate        # Windows
+# source scripts/venv/bin/activate   # Mac / Linux
+
+pip install -r scripts/requirements.txt
+```
+
+## Utilisation
+
+1. Place le fichier audio dans `audio/` (ex : `episode.webm`)
+2. Ouvre `scripts/extract_transcript.ipynb`
+3. Mets à jour la variable `AUDIO_PATH` en haut du notebook
+4. **Kernel > Restart & Clear Outputs** puis **Run All**
+5. La transcription est générée dans `audio/transcript.txt`
+6. Déplace-la dans `episodes/{slug}/transcript.txt`
+
+## ⚠️ Avant chaque commit
+
+Toujours faire **Kernel > Restart & Clear Outputs** pour ne pas committer les outputs du notebook.
