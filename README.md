@@ -3,7 +3,6 @@
 Archive personnelle de notes et résumés d'épisodes de podcasts data.
 
 ## Structure
-
 ```
 audio/                        # Fichiers audio locaux (non commités)
 episodes/
@@ -22,7 +21,6 @@ scripts/
 | 1 | Data & IA | Matthias (N26) | Data for Marketing — MMM & User Value | [→](episodes/n26_matthias_data_marketing/summary.md) |
 
 ## Setup
-
 ```bash
 # Depuis la racine du repo
 python -m venv scripts/venv
@@ -32,11 +30,22 @@ scripts\venv\Scripts\activate        # Windows
 pip install -r scripts/requirements.txt
 ```
 
+## Téléchargement
+
+Pour télécharger l'audio d'un épisode YouTube :
+```bash
+yt-dlp -x --audio-format mp3 -o "audio/episode.mp3" "https://www.youtube.com/watch?v=..."
+```
+
+- `-x` : extrait uniquement l'audio
+- `--audio-format mp3` : convertit en mp3
+- `-o` : chemin de sortie (dans `audio/`, ignoré par git)
+
 ## Utilisation
 
-1. Place le fichier audio dans `audio/` (ex : `episode.webm`)
+1. Télécharge le fichier audio dans `audio/` via la commande ci-dessus
 2. Ouvre `scripts/extract_transcript.ipynb`
-3. Mets à jour la variable `AUDIO_PATH` en haut du notebook
+3. Mets à jour la variable `AUDIO_PATH` en haut du notebook (`../audio/episode.mp3`)
 4. **Kernel > Restart & Clear Outputs** puis **Run All**
 5. La transcription est générée dans `audio/transcript.txt`
 6. Déplace-la dans `episodes/{slug}/transcript.txt`
