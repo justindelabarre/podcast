@@ -50,4 +50,5 @@ yt-dlp -o "audio/episode.webm" "https://www.youtube.com/watch?v=..."
 
 ## ⚠️ Avant chaque commit
 
-Toujours faire **Kernel > Restart & Clear Outputs** pour ne pas committer les outputs du notebook.
+Les outputs du notebook sont strippés automatiquement par `nbstripout` (hook git local).
+Aucune action manuelle requise — pense simplement à lancer `nbstripout --install` après le setup.
