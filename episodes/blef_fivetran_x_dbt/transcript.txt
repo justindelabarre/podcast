@@ -1,0 +1,346 @@
+ Aujourd'hui, je reçois Christophe Blépharic, qui a lancé la newsletteur d'ata Blève.fr,
+ la plus connue en France, Christophe a été édove d'ata, édove d'ata engineering,
+ et stave d'ata engineering dans des startups et des grands groupes, et c'est selon
+ moi l'un des plus grands experts d'ata, en France, récemment Christophe a cofondé Nao
+ un éditeur de code à destination des équipes d'ata.
+ Aujourd'hui, on va décrypter à Christophe la fusion entre 5 trannes et débété.
+ Quelle est la stratégie sous-jacente des deux acteurs et quelle va être l'impact pour
+ un leader ou une équipe d'ata. Christophe est également présent au dernier événement
+ de débété aux US, Kualais. Il va nous partager les autres news de débété qui ne fallait
+ pas rater. Et là, Christophe, ça va ?
+ Ouais, ça va très bien, Rubin, et toi ça va ?
+ Ouais, super, ravite de te recevoir pour ce nouvel épisode.
+ Grosse news, Datagen a lancé un bootcamp en analytics engineering en collaboration avec
+ Databird.
+ Le besoin en analytics engineering a explosé. J'observe cette tendance au quotidien
+ dans mes échanges avec les leaders d'ata. On a décidé avec Databird d'unir no force
+ pour créer le premier bootcamp spécialisé sur le sujet. Le bootcamp est à destination
+ de profils déjà data analyst ou scientist, sera tant partiel pendant 6 semaines et financeable
+ via CPF.
+ Si ça vous intéresse dans savoir plus, deux options, je vous mets le lien pour découvrir le
+ programme détaillé en description. Sinon, vous pouvez écouter l'épisode 151 qu'on
+ a enregistré avec le co-fondateur de Databird dans lequel on explique plus en détail
+ l'attendance de la analytics engineering et le programme du bootcamp.
+ Pour commencer, est-ce que tu peux nous en dire un petit peu plus sur la stratégie
+ sous-jacente des deux acteurs autour de cette fusion ?
+ Déjà, en preuve, je pense qu'il faut dire, c'est que je bosserai ni l'anilo, je
+ connais pas la stratégie exacte, et c'est beaucoup de suppositions, mais je pense que
+ quand tu liées contre les lignes, il y a des trucs que tu peux comprendre.
+ Donc pour remettre juste dans le contexte, FIFTRAN c'est un outil d'extraction de données.
+ Donc ça permet de faire le L dans le LT quoi. Et d'éviter c'est un outil
+ de transformation de données, et ça aide sur la transformation de données.
+ Donc ça t'aide à organiser tes recettes esquuelles.
+ Tu l'as pas mal couvert, je pense dans le podcast, avec tous les épisodes autour de la
+ modernata stack, est-ce que c'est la modernata stack ? Et quand on regarde initialement
+ les tout premiers postes de la modernata stack, ce qui définitient la modernata stack par
+ DBT, c'était FIFTRAN, DBT, LOOCLEUR, et Snowflake, tu vois, c'est quatre outils là et après
+ il y a plein d'autres outils qui se sont réclamés de la modernata stack et qui ont assez
+ de rentrêt dedans. De mon point de vue, la fusion entre FIFTRAN et DBT Labs, c'est
+ pour créer un centre de gravité plus gros et faire un outil complet de LT quoi.
+ Parce qu'il va être aujourd'hui sinon tu avais FIFTRAN qui faisait de le L, DBT qui faisait
+ du T, mais ce qui se passe quand tu veux grossir et quand tu regardes la manière dont
+ les entreprises utilisent les outils. Plus entreprises devient grosses, plus elles veulent
+ une seule facturation et un seul outil qui gère tout quoi. Et en fait je pense que c'était
+ une minute à la croissance des deux entités séparées, d'avoir que un service d'extraction
+ ou qu'un service de transformation et quand se rendez compte de comment il devait faire
+ pour croître, c'était forcément aller dans d'autres périmètres de la modernata stack que
+ ça soit l'extraction pour DBT ou la transformation pour FIFTRAN et après aller dans le catalogue,
+ la BI, le cement d'icléer, le compute qui est l'ORA ou sous le data leg et ce genre de
+ ce que je pense que le vrai truc initial qui a trigger ça c'est les clients va le payer
+ en seul outil pour tout faire et c'était le truc le plus évident tu vas de faire mergé
+ le plus gros truc de L et le plus gros truc de T aujourd'hui. Oui pour rester on va dire
+ compétitif face aux mastodontes type Snowflake ou après même les plus gros Google Xstar.
+ Mais en fait les organisations, les grosses organisations dans ce périmètre de LT ça va être
+ Alterix, Informatica, IBM, il y a quelques entreprises qui sont méga grosses et qui sont implantés
+ dans le fortune 500 dans les grosses entreprises. Tu vois en France on a d'attaïcou qui fait
+ un peu ce périmètre là, il y avait talaine d'à une époque et en fait toutes ces entreprises
+ là elles nous ont fourni toujours un outilage qui était de l'ingestion jusqu'à la fin
+ de la transformation. Ça c'était des outils ETL complet où tu pouvais tout faire à l'intérieur
+ et la fusion fait que tu peux maintenant entrer en compétition avec ces entreprises là et fournir
+ une opte de service équivalente pour permettre aux entreprises qui seront potentiellement bloquées
+ parce que c'est quand même des techniques qui sont assez anciennes sur Alterix Informatica
+ de migrer vers DBT qui est plus sexy, plus moderne, qui donne plus envie aux équipes de travailler
+ parce que tout le monde en parle, il y a tout qui est plus ouvert et plus attrayant.
+ Donc ça c'est ce qui explique effectivement que ça a été un rapprochement entre 5-treine
+ et DBT et pas un rapprochement par exemple entre eux, DBT Snowflake ou 5-treine et Snowflake.
+ C'est effectivement historiquement c'est quand même un peu de typologie d'acteurs différentes
+ à les acteurs qui sont plutôt Data Lake, warehouse du côté du compute et bien sûr ils vont quand même
+ essayer d'aller récupérer certaines d'autres parties de la chaîne sur le LT un petit peu etc.
+ Et t'avais plutôt les outils ETL qui étaient un peu agnostiques du compute et qui pouvaient
+ après se déployer sur les différents cloud et donc en fait là 5-treine et DBT finalement il
+ recréait un outil alors qui est complètement différent mais dans une catégorie qui existe depuis
+ très longtemps qui est tout simplement la catégorie de l'ULT.
+ Enfin bien gestion jusqu'à la transformation comme ténique.
+ Enfin il y avait quand même eu de pas mal de rumeurs ou d'interrogations de gens qui disaient
+ DBT va se faire acheter par Snowflake ou DBT va se faire acheter par DataBrix.
+ Je pense que la fusion c'est aussi une manière défensive par rapport à ça parce qu'en fait la fusion
+ de 5-treine plus DBT et Labs rend la lentité fusionnée plus dure à se faire absorber par
+ en Snowflake ou en DataBrix, je pense aussi, on n'a pas les chiffres publics mais à priori 5-treine
+ faisaient 400 millions de revenus et DBT et Labs étaient entre 250 et 350, je pense
+ c'est pas public mais c'est à priori ce qu'on peut lire sur internet.
+ Et sur ces produits tu appliques à peu près des fois 10 minimums, je suis posé de la traction
+ qu'ils ont donc t'es quand même sur des outils qui étaient entre 2 et 4 milliards probablement
+ de valo chacun.
+ Deux mémoires, je sais, là j'ai pas le chiffre en tête mais deux mémoires DBT alors dernière
+ levés donc 2022, ils étaient déjà à 4.5 milliards de valuation parce qu'ils avaient
+ levés à une valuation assez ouf, donc sans le revenu à l'époque.
+ Donc peut-être si on voit une nouvelle acteur, ils dépassent les 10 milliards de valo donc
+ ça devient un peu costaud à acheter quand même pour un snowflake.
+ Ouais c'est plus le même truc quoi.
+ Et après il y a aussi ce que tu m'avais dit, c'est quelque chose que tu voyais beaucoup
+ d'ailleurs à quoi l'aise, c'est qu'une grosse tagline de DBT, c'est de réduire les
+ coups de snowflake ou les coups, on va dire de compute de manière générale grâce aux optimisations
+ qui permettent de mettre en place sur la modélisation extra.
+ Ça c'est quand même en termes de vision de positionnement une énorme friction enfin c'est
+ complètement, voilà ils ne sont pas du tout alignés sur l'objectif parce que snowflake,
+ bien sûr ils vont te permettre de quand même optimiser ce que tu fais dans snowflake mais
+ leur but c'est pas de réduire la note que tu payes à snowflake, on va dire de 50% en toi
+ tu disais DBT une de leurs taglines c'est qui permettent de réduire de 60% la note de snowflake
+ donc grosso modo de réduire de 60% le sea à snowflake donc forcément il y a un problème
+ et donc peut-être quand terme de vision pour les fondateurs de DBT aussi se faire aspirer
+ par snowflake, ça aurait pu être plus un choix stratégique de snowflake et ça aurait
+ pu complètement mettre en pause après finalement tout le dynamisme de la feuille de route et
+ enfin le produit aurait peut-être été un petit peu complètement pas abandonné forcément
+ mais toi ce que je veux dire.
+ Donc ce qu'il faut voir c'est que le revenu de snowflake est très correlé, je pense
+ qu'il y a une grosse partie du revenu de snowflake qui dépendent de personnes qui font du DBT
+ c'est dur d'avoir les chiffres parce que c'est pas public tu vois mais ce qu'on sait et ce qu'à
+ annoncer des BT c'est qu'il y a au moins 90 000 projets ou entreprise qui utilisent
+ des BT corps donc la version open source tu vois, là dessus et où est Rouse le plus d'utiliser
+ c'est à mon avis snowflake bicoori avec probablement snowflake en tête donc ça veut
+ dire qu'il y a une grosse partie du revenu de snowflake qui dépend de codes qui a été écrits
+ en DBT. Il y a un truc qui est inérent à DBT c'est un truc qui génère beaucoup d'entropies
+ en fait quand tu fais du DBT tu vas passer ton temps à rajouter des modèles à créer des nouveaux
+ modèles et par défaut la manière dont DBT a été conçu, quand tu crains un modèle tu vas
+ le rafraîcher tous les jours et tu vas reécrir toute la table et du coup par défaut le setup
+ de DBT est pas méga optimisé et la plupart des gens commencent comme ça parce en fait au début tu
+ ne te passes pas trop de question tu fais un modèle en foule tu passes ton temps à rajouter des modèles
+ en foule d'imaginaient toutes les semaines tu rajoutes 10 modèles à la fin de l'année t'as
+ 500 nouveaux modèles tu vois et donc chaque modèle incluant du compute chez le wear-os qui est en dessous
+ bah forcément à la fin de l'année ton coup snowflake a augmenté sur début tu as commencé à 1000
+ potentiellement tu finis à la fin de l'année à 10 000 20 000 30 000 whatever et donc ça se passe
+ parce que ça a été une grosse recherche ces dernières années des équipes utilisées DBT de baisser
+ leur coup de wear-os parce qu'en fait il y a plein de leviers là dessus il y a plein d'entreprises il y a
+ plein de boîtes qui sont lancées dans ce périmètre de baisser les coups de wear-os mais sachant que c'est
+ dbT de manière inérente et la manière dont ça a été conçue les choix qui ont été fait par
+ l'entreprise et par dbT quoi font que t'as beaucoup de coup bah en fait tu peux modifier des trucs
+ dans le moteur qui baissent les coups instantanément si tu mets des optimisations à certains endroits tu
+ vois et c'est un peu ce qu'il y a été fait avec fugeonne le nouveau moteur qui est propriétaire avec
+ source-vailable et c'est aussi ce que fournit dbT dans dbT platform où tu peux vachement monitorer
+ et coup ils en release là ils ont annoncé un nouveau truc justement à la coallesse qui s'appelle le state
+ où est ce qui est du ligne qui fait que tu ne recalcules un modèle que si tu estime que les lignes
+ en dessous ont changé ça c'est que dans la plateforme cloud et tout ça a mis de bout à bout et ils
+ annoncés justement qu'ils arrivaient à faire des solutions entre 65% des coups de wear-os en dessous bah ouais
+ c'est dur d'être tu vois genre de vendre la réduction de de compute et de vendre du compute en même temps
+ quoi je trouve que t'as un conflit à un moment d'intérêt ou un conflit de business je pense on a beaucoup
+ parlé de dbT on va en reparler après de façon avec aussi les news autour de l'événement
+ coallesse mais j'étais curieux que tu nous en dises un peu plus sur la vision du côté de 5-treine
+ pour toi au-delà de devenir un très gros acteur est probablement là d'autres éléments stratégiques à
+ l'acquisition de dbT tu peux nous parler un peu de ça en fait ce qui est intéressant je pense de
+ voir c'est que 5-treine quand tu regardes à l'annonce et quand tu regardes un peu en ligne où tu
+ lis les choses en ligne c'est pas l'entreprise qui a la marque la plus appréciée et ils n'ont pas
+ créé une grosse marque identifiable tu vois qui donne envie aux équipes de bosser avec franchement le produit
+ marche bien mais écoute assez cher et le pricing de 5-treine a toujours été quelque chose qui attendu
+ je dirais la communauté au global parce que assez cher compliqué à comprendre un site et je pense que
+ quand t 5-treine tu le vois ce truc là et de l'autre côté dbT a construit une communauté qui a assez
+ ouf tu vois parce que c'est open source de base mais aussi je pense que l'entreprise a réussi à
+ avoir une com qui est moderne à mettre des équipes assez jeunes tout le monde est vachement visible tu
+ vois genre quand tu regardes les personnes qui parlent au keynote et il y a 5 à 10 personnes différentes
+ qui parlent qui sont des produits managers j'ai rémique t'as reçu dans le podcast tu donnes envie tu
+ as d'utiliser le produit aussi côté 5-treine il n'y a pas trop ça tu n'y a pas cette notion de développeurs
+ communities ils ne font pas des kinotes où ils expliquent les futures et d'un côté si tu déplace
+ ta donnée de abe tu vois c'est quoi quand t 5-treine genre faire une développeur qui note où tu te dis oui
+ bah maintenant on a rajouté l'incrémentale tu vois bah je pense que c'est c'est pas le même fun et tu t'as pas le même
+ produit pense que ça c'était limitant donc il y avait un gros sujet stratégique je pense en la fusion avec
+ dbT c'est bah tu as d'une d'un côté cette nouvelle communauté de développeur qui est une marque aussi
+ appréciée qui vient avec toi je pense que de l'autre côté 5-treine était assez concurrencé il y a énormément
+ d'alternatives à 5-treine que ça soit en service cloud par exemple peut-être by cloud mais aussi en open source
+ t'as airbite t'as dLt t'as plein d'arrivées qui sont basés au-dessus de dLt en service cloud aussi aux
+ uss tu as est tu as Harry portable t'en as quand même un sacré paquet en France t'as pop sync qui y a plus sur la
+ partie cdc tu vois et donc ça fera n'est énormément concurrencé et je pense qu'ils voient aussi la concurrence
+ sur ce sujet et donc ils avaient besoin aussi de diversifier la manière dont ils récupéraient le revenu et
+ aussi d'un autre truc peut-être ça n'est aussi concurrencé par Snowflake d'Atabrix bicoerie eux-mêmes eux aussi
+ leur service d'ingestion de données tu vois en mode sachez de Snowflake tu peux avoir open flow quand
+ t'es bicoé tu vas voir je sais plus comment ça s'appelle d'Atabrix en service ou en truc comme ça et en fait ça veut
+ dire que vous faire un jour le revenu de l'oeil va baisser parce qu'il y a plein de petits concurrents qui sont en train de
+ grossir aussi je crois que par exemple airbite et 10 fois plus petits ont revenu que faffstraine quand même mais Snowflake avec open
+ flow je pense qu'ils peuvent prendre une grosse partie du marché parce qu'en fait ils sont fort à l'avantage ils ont une
+ plus grosse force de vente faffstraine a besoin de se diversifier et en fait on l'avait vu cette diversification en
+ c'est pas trop mais faffstraine en fait dans leur offre d'ingestion il pouvait ingérer ta donnée directement dans un warehouse mais
+ ils étaient aussi capables d'ingérer ta donnée dans un data lake ou dans un lake house avec des destinations en iceberg avec tout
+ ce qui va dans le périmède dans l'écouse en mode on le met la donnée dans un bucket et ensuite t'as des tables icebergs sur
+ lesquels tu peux travailler et faffstraine était déjà en train de partir là dessus il était déjà en train de vendre cette
+ off pour aller dans cette direction de iceberg devient le nouveau standard tu vois d'ingestion de données ou t'as du iceberg et après t'as
+ des computes qui se mettent au top donc ouais je pense qu'il y a une grosse part qui a été la diversification et avoir une meilleure marque tu vois
+ que celle qui est faffstraine qui est très corporeille t'es qu'il n'y a pas qui donne pas forcément envie je pense
+ peut-être on peut parler un peu maintenant de l'impact que va avoir cette fusion sur les équipes data sur les
+ leaders data un peu comment on doit lire la situation et je pense qu'il y a plusieurs manières de rentrer dans
+ ce sujet ça peut être déjà d'un point de vue pour les utilisateurs de débété et apprends peut parler un peu plus
+ pour les utilisateurs de faffstraine ou les utilisateurs des de solutions et apprends pour apparlé peut-être aussi un petit peu des potentiels
+ évolution des de produits et des synergies possibles enfin est ce que ça va aussi créer quelque chose de nouveau en termes de valeur ajoutée
+ pour les équipes data ouais je pense que pour la communauté c'est pas un message qui initialement a été reçue de la bonne
+ manière je pense c'est plein de trucs qui s'enchaînent tu vois premier truc qui était arrivé c'était la sortie de
+ feux jeune et le fait que des bétés fusion de nouveaux moteurs donc engine était pas au bonne source il est source
+ veilable mais avec quand même du code propriétaire chez des bétés et donc tu peux pas l'utiliser
+ enfin vu qu'il est source veilable que t'as un binaire qui est compilé en reste tu peux l'utiliser où tu veux sans aucune
+ contrainte c'est juste une entreprise commerciale qui ne peuvent pas le repacager le revendre non mais fait c'est pas très grave
+ mais le fait qu'ils ont enlevé le fait que ça soit au bonne source ça frustrait quand même une bonne partie des personnes
+ et le truc qui allait un peu derrière c'est que maintenant quand tu regardes un peu la com de débété il y a quand même beaucoup de
+ fiatures et quand tu regardes le shift des équipes des bétés corps qui open source à moins de devs qui
+ bossent dessus que la partie des bétés plateformes qui génèrent du revenu et quand il y a des nouvelles
+ fiatures qui sortent le futur ça va être si on caricature c'est veilable une débété plateforme et donc pas pour la
+ plupart des gens et juste surgale l'équation économique il y a quand même beaucoup de gens qui sont sur des bétés
+ corps qui n'ont pas envie d'aller sur des bétés plateformes parce que le code entrer est trop élevé pour
+ ce que ça fournit chacun à son rationnel ou parce qu'en fait t'as commencé avec un outil open source c'est à part envie de
+ vraiment y'a des gens qui qui sont pieds fermes en mode je sais open source je paierai pas pour ce truc là parce que
+ en fait c'était pas ça la base de la communauté et la communauté c'est pas construite autour d'un outil payant quoi non pas je
+ pourrais des devs qui bossent dessus je l'entends je pense qu'il y a ce truc là qu'il n'y a pas été reçu avec joie donc en
+ historique et ensuite maintenant la fusion avec fafftrand ou fafftrand n'est pas reconnue comme une entreprise qui
+ fait le le plus d'open source quoi c'est marrant parce qu'il y a eu la kino te vous en en parler et le CEO de fafftrand faisait la
+ blague en disant oui mais fafftrand on a beaucoup de ripo open source moi j'ai commencé j'ai fait de l'open source donc je
+ suis allé voir en effet ils ont beaucoup de ripo open source ils ont leurs 150 qui sont leurs dépaqués gdbt comme ça ok ils
+ font de l'open source ils ont mis des trucs sur github quoi mais ils font pas de l'open source dans le sens comme dbt
+ ou comme un projet à page open source classique donc ils ont pas la culture open source non plus sachant que en plus de
+ ça y avait aussi je pense que c'était il y a deux ans dbt leur si héros donc le chef du revenu c'est quelqu'un qui a
+ été chez élastique à l'époque où élastique a échangé de licence donc il y a plein de signaux qui font qui
+ frustre je pense les utilisateurs dbt et la communauté la priorité est passée de l'open source vers la monétisation
+ quoi clairement mais ça dans quel mesure ça correspond enfin ça peut vraiment entraîner un risque pour les équipes
+ d'attaques qui utilisent la partie open source actuelle est ce que vraiment tu peux avoir un enjeux de manque de
+ maintenance de manque d'évolutivité enfin tu peux avoir carrément un problème au bout d'un moment tu vas avoir des
+ choses dans ta plateforme d'attaques ils ne vont plus fonctionner parce que peut-être qu'ils auront carrément trop
+ ralenti sur l'évolution de la partie open source moi après je pense qu'ils vont aussi faire attention mais c'est
+ ça le risque enfin c'est il y a vraiment un risque tangible je pense que ce risque il est assez
+ misuré parce que quand tu regardes ce qu'est dbt open source c'est un genre core quoi un paquet de
+ requêtes actuelle ça te permet des orchestres comme un dag et de te donner le dag et ensuite tu fais ce que tu
+ veux la manière dont tu lance le dag la plupart des gens ils utilisent dbt pour un peu le protocole dbt le standard
+ dbt la manière d'organiser tes requêtes actuelles avec des Yamel pour les décrire et ensuite ils l'orchestre avec un air
+ flow ils l'orchestre dans une siya ils l'orchestre en utilisant un compte dbt cloud qui paye
+ sans balle par mois alors qu'ils ont une plus grosse équipe enfin chacun a un peu ces astuces pour
+ lancer dbt et honnêtement ce truc là est assez stable je pense que tu prends un projet dbt d'aujourd'hui si ton
+ équipe d'ata ce qu'elle fait c'est juste elle crée des nouveaux modèles elle rajoute des nouvelles choses elle
+ passe son temps aussi parfois à compacter enlever les modèles qui servent à rien sans faire grossir le truc de
+ manière de démesurer ce que là il va tenir cinq dix ans il y aura aucun problème le seul truc il va se
+ passer c'est que mécaniquement la version plateforme les personnes qui ont bossé sur la plateforme ou
+ jeûne va avoir des nouvelles fixtures et tu vas être un peu frustré de pas les avoir parce qu'en fait il y a des
+ trucs qui ne pourront pas être fait d'encore mais ça c'est pas un risque ça c'est plus genre créer une
+ frustration ou créer un truc au-dessus dit à putain il manque le nouveau jouet qui brille à côté pas de ces
+ frustrants se dire que la version open source alors que jusque là elle était super dynamique t'avais
+ quand même des nouveautés régulaires c'est juste que là maintenant ça va se ralentir et ça ça m'omène au
+ sujet suivant que je voulais aborder c'est que du coup ça crée une opportunité pour un nouvel acteur on
+ en a déjà parlé lorsqu'il est marrant c'est qu'on avait déjà fait un épisode sur ce sujet que je
+ choisir entre débété et escuelmèche parce que le challenger c'était escuelmèche et en fait five-trades un
+ peu anticipé ce sujet là ce qui est assez là tu dis quand même que c'était stratégique et qui
+ préparait le coup depuis longtemps je pense enfin j'en sais rien mais parce qu'ils ont acheté escuelmèche
+ avant d'acheter débété et donc en fait finalement tu vas avoir une place pour un nouvel acteur qui va
+ sûrement arriver quand même et qui va proposer une alternative open source parce que du coup il y a un
+ positionnement de marché à prendre mais ça peut mettre beaucoup plus de temps que prévu vu que voilà
+ t'as pas un acteur qui est déjà dans les starting blocks déjà prêt qui avait déjà construit une communauté
+ comme ça pouvait que le cas pour escuelmèche. La raison pour laquelle ils ont racheté escuelmèche avant je
+ pense c'est pour deux raisons la première c'est pour dire à débété si vous ne venez pas et si vous mérdez pas
+ avec nous bah nous on va avec escuelmèche et on sera votre plus gros concurrent donc je pense que ça a
+ fait du leverage et c'est important d'avoir du leverage je pense quand t'essaie de faire ça quoi et
+ deuxième truc c'est aussi stratégique c'est que si t'as escuelmèche et qu'en suite tu rachètes
+ débété bah du coup il y a plus de fuite parce qu'en fait escuelmèche était très vocale sur on est l'alternative open source
+ on est gentil débété l'App c'est les méchants et du coup si tu rachètes juste débété l'Apps et qu'il y a toujours escuelmèche
+ dans la nature allez genre switch instantanément tu vois les hardcore fans de l'open source dont tu parlais ils
+ allaient tous partir ouais c'est ça et ça aurait été un vrai un vrai truc mais du coup bah
+ stratégiquement ça a plutôt bien fonctionné je pense et aujourd'hui des alternatives il y en a il y en a je
+ dirais quatre la première c'est forcée débété genre tu peux repartir d'un débété corps et l'améliorer en
+ faire ce que tu veux je pense que c'est assez limité parce que le vrai truc de débété c'est débété
+ fusion et c'est ça je pense le futur qui a des grossitudes et qui est intéressant et ensuite t'as un truc
+ s'appelle beaux plans un truc s'appelle brine et je pense que t'as aussi d'LT qui est l'outil d'extraction en
+ pittant qui peut aussi faire de la transformation dans une certaine mesure avec leur off quoi je pense
+ que ça c'est les alternatives qui agissent aujourd'hui et forcément elles vont devenir de plus en plus fort
+ quoi on va voir la qu'elle arrive à gagner le cœur de la communauté donc comme on a dit plutôt
+ probablement qu'il y a un avantage majeur pour les équipes d'attaques c'est celui dont tu parles et
+ notamment les équivatins dans les grosses boîtes qui ont envie d'avoir un acteur principal fin de
+ limiter le nombre de logiciels ou de provader avec lesquels ils vont travailler qu'elles voient les
+ potentiels synergies est ce que tu penses que c'est principalement un plus gros acteur qui permet
+ de couvert toute la chaîne mais ça va rester un peu de briques quand même séparés ce comme tu le
+ dis aussi c'est une fusion donc tu vois je pense qu'ils les deux produits sont quand même déjà très
+ développés où est ce que vraiment il y a énormément de potentiels pour aller créer de la valeur
+ ajoutée en allant fusionner d'une certaine manière ou créer des nouvelles fonctionnalités qui
+ intègrent les deux produits la manière dont ils ont vu leur merde c'est de dire on fait tous
+ sauf le warehouse si je caricature ou on fait tous sauf le compute 5 freins des bt l'abs veulent être
+ l'entreprise qui quand tu fais une open data infrastructure pour les cités ils t'aident sur tout dans
+ ta stack sauf le choix du warehouse et tu mets le warehouse que tu veux au milieu donc ils t'aident
+ sur ingérer la donnée ils veulent t'aider sur faire la transformation évidemment ça vient de
+ autres principaux mais ils veulent t'aider aussi sur faire ton iceberg et j'arrête en catalogue
+ iceberg ils veulent t'aider sur gérer ton catalogue au global ils veulent t'aider sur ton sémentique
+ l'ailleurs ils veulent parce qu'ils ont aussi l'entité fusionnée réopen source à un sémentique
+ l'ailleurs en protocole de sémentique l'ailleurs et donc en fait stratégiquement ils veulent créer une
+ entité qui peut tout faire il y a deux trucs à ça le premier c'est ça change complètement les
+ entreprises qui sont adressées par des bt je pense que avant c'était beaucoup tu vois tu regardes les
+ entreprises que t'as invité c'est beaucoup des startups des scale up des petites org qui abdotés d'été je
+ pense que là ils veulent vraiment chifter mettre la la seconde la troisième peu importe la quatrième et
+ aller vendre au fort une 500 aller vendre au gros entreprise qui ont beaucoup d'argent et compit
+ avec les gros et notamment par exemple coalesse.io qui a racheté par exemple caster qu'on connaît bien
+ en France qui est le plus gros concurrent je pense sur la transformation de dbt aujourd'hui en appel d'offre
+ en face à face quoi et qui est fort dans les fort une 500 et donc je pense qu'il va l'aller ciblez
+ ces entreprises là et donc en fait toutes les startups scale up ça sera plus trop la cible de la
+ l'entité fusionnée à mon avis et après sur les synergies je pense que l'entité fusionnée donc le
+ dbt-trane mais ça n'appelle quoi ils vont racheter d'autres trucs je pense ils vont a priori racheter un
+ d'attaque à la log je pense parce que c'est la next step ils ont un catalogue dans dbt platform mais il
+ est pas extraordinaire de ce que j'ai entendu et de la manière dont j'ai eu le feedback et je pense qu'il peut
+ valer dans cette direction là et deuxième truc ils vont racheter un orchestrateur pas ça mette aujourd'hui
+ quand t'as du dbt tu sais faire que du SQL tu sais que orchestrerais du SQL un peu d'épitons transformation qui
+ tombe sur le virus mais c'est tout tu connais rien de tout ce qui est autour donc tu connais rien c'est à
+ des daguerre flot tu connais rien c'est à des daguerre tu vois des trucs qui tournent en pittons en
+ importe quel autre langage tu sais pas c'est l'inconnu pour toi et si tu veux être l'outil principale d'une
+ stack il faut que tu sois fort sur ce truc là et donc je pense qu'ils vont aussi aller dans cette
+ direction de reprendre un outil d'orchestration je pense que le meilleur candidat pour eux ça serait d'acteur
+ enfin ça serait le plus logique et le meilleur parce que d'acteur et hyper bien d'intégrer avec dbt ils
+ sont open source ils vont une bonne brande là où air flow c'est open source il n'y a pas d'intérêt de
+ racheter air flow astro demeure qui est trop gros je pense pour eux et après éventuellement même un outil
+ via sur le long terme tu as l'idée c'est one stop shop et t'achète tout tu vois parfaits pour les
+ pronostiques bah écoute on fera des petites reviews à chaque fois qu'il y a une nouvelle pour voir
+ si t'avais raison tu nous as déjà un petit peu balancé des petites news issus de l'événement de
+ dbt qu'on a mentionné une que dont tu voulais peut-être parler en pourtant pour fondeur si tu devais
+ partager à la communauté une ou deux news clics fallait pas rater ouais je dirais les trucs
+ intéressant à retenir c'est bon la fusion et leur opin d'atteindre un frais le fait qu'ils ont
+ lancé un truc qui s'appelle osci je crois c'est open c'est mentique inter change l'idée c'est de
+ créer un langage commun de c'est mentique laire entre beaucoup d'entreprises et c'est des
+ grosses entreprises avec celles forces et des trucs bien plus gros quoi pour créer en fait un protocole
+ où c'est mentique laire est standard pour tout le monde et à côté de ça ils ont open source
+ c'est maîtrique flow et ça bon pour l'histoire maîtrique flow à la base c'est une
+ autre chose qui s'appelle transforme qui a été acheté par dbt qui était open source qu'ils ont
+ close source et qu'ils ont réopen source parce qu'ils sont rendus compte que la version close source
+ ne marchait pas je pense que c'est par nature tu ne peux pas faire assez mentique laire si t'es pas open
+ parce que le principe c'est mentique laire c'est de connecter à notre système mais si t'entruis qu'il
+ close source personne va avoir envie de le supporter alors si tu crées un standard qui est open la plus
+ part des gens on pouvoir se baser dessus et construire dessus donc il y a eu ça et après je pense que le dernier
+ truc c'est plutôt autour de corps et de fusion je pense que j'ai bien aimé sur la développeur qui
+ note où ils ont répété que dbt corps a les restés open source mais je pense qu'il y a sur le
+ vocabulaire il y a un truc qui est important de comprendre c'est que quand on parle de dbt on parle de
+ plein de choses on peut parler de dbt lab donc parler de dbt corps on peut parler de dbt fusion
+ enfin tu as genre dbt juste le mot dbt veut dire plein de choses mais en fait quand tu réfléchis que c'est
+ vraiment dbt c'est un langage que tout le monde parle qui est je définis mes modèles comme des
+ requêtes esquelles et des fiches yameuses à côté et donc ça c'est juste ce qui est dbt c'est le fait
+ de écrire du esquuel du amel qui définit en modèles et ça c'est le standard et est-ce que t'es bien
+ formulée dans la développeur qui note c'est on a tous ça et ça ça va exister à jamais ça sera
+ open source open standard à jamais quoi de dire que bien projet dbt c'est du amel du esquuel qui
+ est bien rangé et ensuite ce amel est su esquuel qui est bien rangé tu peux choisir le moteur que tu
+ veux pour l'interprété donc tu pourras choisir dbt corps qui restera open source à jamais où tu pourras
+ choisir dbt fusion si tu vas avoir des fiches sur supplémentaires mais qu'il n'y a pas open source mais
+ qu'il est juste sur ce vélo ils ont dit qu'ils allaient essayer de garder la fichure par ici entre les deux à mon
+ avis un jour ça sera trop lourd rapporté mais à mon avis c'est dans quelques années c'est genre 3-4 ans
+ que ce problème arrive râche pense que d'ici là on a le temps de voir les choses venir et on peut rester sur
+ dbt corps si on en vit souvent on aime bien finir ces épisodes par une news la news de bluff peut-être
+ un article ou une ressource ou quelque chose qui t'a particulièrement interpellé c'est d'un
+ heure semaine peut-être il y a des types d'artiques que j'aime beaucoup sur internet qui sont les articles un peu
+ pédagogiques ou quand tu scrolls il y a des diagrammes qui s'affichent au fur et à mesure pour de manière
+ pédagogique t'apprends les choses et à l'un que j'ai vu il n'y a pas très longtemps qui est commence à
+ marge le valon une database sur il y a au fur et à mesure que tu scrolles dans ta page tu comprends un peu
+ comment la donner à les stocker comment ça fonctionne sur le disque comment quand tu requêtes la
+ donnée ça se passe je trouve que c'est assez pédagogique et qu'on pose dans la data je pense qu'il y a plein
+ d'analyse ou d'anetics ingénieur vu qu'on parle de dbt qui écrivent des squelm et qui s'affichent pas
+ vraiment ce commence à fonctionner une base donnée derrière et je pense que c'est hyper intéressant comme
+ article pour vulgarider ces concepts là coutons mettre à ça en description coute Christophe on va
+ s'arrêter là-dessus merci beaucoup à nouveau d'être venu merci au bas de l'ambitation récap de la
+ qualesse et de voilà comment tu l'interprète un peu la fusion 5-treine dbt dites-nous dans l'audience que
+ vous avez pensé de cet épisode la nous c'est qu'on était à distance pour cet épisode avec Christophe donc
+ dites-nous aussi ce que vous en avez pensé peut être dites-moi si vous avez vu une différence en
+ mieux en moins bien je vous dis à bientôt merci Christophe salut à plus pour ceux que ça intéresse je
+ partage chaque jeudi via la newsletter datagen un mail avec un zoom sur les éléments clés de l'épisode et
+ la ressource recommandé par l'inviter ici lit en trois minutes je vous mets le lien pour s'inscrire en
+ description

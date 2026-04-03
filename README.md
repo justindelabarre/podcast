@@ -32,14 +32,9 @@ pip install -r scripts/requirements.txt
 
 ## Téléchargement
 
-Pour télécharger l'audio d'un épisode YouTube :
 ```bash
-yt-dlp -x --audio-format mp3 -o "audio/episode.mp3" "https://www.youtube.com/watch?v=..."
+yt-dlp -o "audio/episode.webm" "https://www.youtube.com/watch?v=..."
 ```
-
-- `-x` : extrait uniquement l'audio
-- `--audio-format mp3` : convertit en mp3
-- `-o` : chemin de sortie (dans `audio/`, ignoré par git)
 
 ## Utilisation
 
