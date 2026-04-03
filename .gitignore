@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Audio / vidéo bruts (trop lourds pour git)
+*.mp3
+*.mp4
+*.wav
+*.m4a
+
+# Fichiers temporaires
+*.tmp
+*.log

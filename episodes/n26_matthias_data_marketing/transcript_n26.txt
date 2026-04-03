@@ -1,0 +1,684 @@
+ Today, I'm welcoming Matthias Ed of Data for Marketing at N26,
+ the NeoBank based in Berlin,
+ valued at over $9 billion.
+ We'll be talking about one of his greatest challenges
+ over the past few years, creating and scaling the data team
+ dedicated to marketing at N26.
+ For example, he will explain some of the long term objectives
+ of his team, including building what we call
+ a marketing mix modeling, lifetime user value models,
+ and he will tell us how he scaled the team to 12 people
+ and how they are organized.
+ Hi Matthias, great to have you here, how are you?
+ Hey Robin, it's a pleasure to be here finally
+ on the other side of a podcast I've been listening
+ for a while, so yeah, it's an honor, thank you for having me.
+ Can you tell us more about N26 to start this?
+ N26 is a mobile bank that's been created in 2013.
+ Originally, it was built as a kid's account,
+ but the parents loved the product so much
+ that they wanted to use it for themselves.
+ And that's how we took over Europe by storm.
+ Originally, it was just core banking.
+ Now, we also have investment products like crypto, ETF stocks,
+ but we also have products like ESIM,
+ we're basically trying to cater for digital nomads
+ and traveling populations, where 1,500 employees,
+ the many quarters are in Berlin,
+ but we also have tech hubs in Barcelona
+ and in Vienna, we also have offices,
+ local regulatory branches in France, in Spain, in Italy,
+ and in Vienna as well.
+ We currently have more than 5 million customers,
+ 500 employees as well in the product and tech organization.
+ Obviously, we will get into more details about the data strategy
+ and notably the data for marketing strategy,
+ but can you also just give us an overview
+ of how many people they are in the data team?
+ Our data team or our data setup per se is a bit unusual
+ because there's no central data organization within the business.
+ We don't have a VP of data,
+ which is to have individuals' data teams
+ or data functions across the org.
+ So we have a data platform team,
+ which sits in platform engineering,
+ which is responsible for doing all of the platform
+ for analytics engineers, analysts, or data scientists
+ to use for the reporting.
+ In this team, it's approximately 20 people strong.
+ We have different types of profiles,
+ that reliability engineers, machine learning engineers,
+ and data engineers.
+ We have a central data analytics team,
+ which is 25 people strong
+ that covers every area in the business,
+ except from the marketing department.
+ We have an analytics engineering team,
+ which serves the data analytics team,
+ 12 people strong,
+ and we also have a central data science team
+ and data products team,
+ approximately 20 people strong,
+ which are responsible for building the machine learning model
+ that power our product and our bank itself.
+ Those are the central data functions.
+ Obviously, I'm leading the marketing data team.
+ I'm the only full stack team within the business,
+ sitting in the marketing department.
+ We're gonna get into how this came to be,
+ but within my team,
+ I do have the three types of profile,
+ data scientist, analytics engineers,
+ and marketing analyst.
+ Can you tell us a bit more about how you ended up in this role?
+ I originally have a business background,
+ but I was always very much interested in to tech.
+ I did two internships,
+ dedicated to bridging the gap
+ between business, business and tech.
+ I found a number of studies internship at ElowFresh in 2017.
+ This was the time where ElowFresh was the biggest
+ Caleb in Europe.
+ And so I joined May 2017,
+ when I left May 2020, three years after,
+ the team that I joined, marketing BI as an analyst,
+ I'd gone from four people to 12 people.
+ And I cannot basically describe all of the topics
+ I worked on because of this constant energy
+ of we need to build all of this.
+ And so at the time, a friend of mine,
+ from ElowFresh, I'd moved to N26
+ and told me that they were looking
+ for exactly someone with my type of profile
+ to build the marketing data or marketing analytics team there,
+ because in 2020 and 26 was expected
+ to have the same growth as ElowFresh add,
+ and they were looking for someone that had experienced it already
+ in order to then apply those practices at N26.
+ So maybe you can tell us more about the context
+ because you said earlier you would get into like,
+ why is the marketing team the only team
+ that is a separate let's say from the central data teams?
+ Like in a lot of organization, I believe,
+ we had an equivalent of a data team in the tech department
+ that was meant to service the different business functions.
+ However, the data team was following their own priorities
+ and the marketing team, therefore,
+ decided to hire their own analysts.
+ So when I joined the data team in order
+ to lead the marketing analytics function in the data team,
+ but there was already one analyst in the marketing team
+ that was reporting to the director of paid marketing at the time.
+ The separation of work between the two teams
+ where my team works more on data products
+ while the analyst in the marketing team
+ helps more answering adult questions and giving its sites
+ on the performance of the marketing campaigns.
+ That's forward a bit of time.
+ The director of performance marketing
+ who was leading the analytics function
+ and the marketing analyst decided to leave the business.
+ And so at that time, the CMO approached me
+ and asked me whether I could in interim lead
+ the marketing analytics function as well,
+ granted that I receive at count with it.
+ I accepted the mend it and under this context,
+ I was able to hire for both the marketing analytics function
+ and the data analytics function quotation mark
+ in order to start creating the first drafts
+ of a marketing data team.
+ The people in the data team became more analytics engineers
+ because this was also the rise and shine
+ of the analytics engineering era 2021-2022
+ and the analysts from the marketing analyst function
+ were becoming really data analysts per se.
+ The more the team grew and evolved,
+ the harder the questions we were getting,
+ the more data scientists support we needed.
+ So we started collaborating with the central data science team
+ in 2024 because it was acknowledged
+ that both three teams were working very, very well together.
+ We decided to consolidate all three sub teams
+ into one department, which was my department
+ and all of the team moved into the marketing function.
+ Is it like a specificity you think of the business
+ of the banking business that may be the need
+ in terms of data is bigger for marketing than, for instance,
+ a new other function like product or finance
+ or is it also just like a question of context
+ or just like maybe the CMO wanted to have the team close
+ to the marketing, are there like other explanations?
+ I like to think that it's not because of the business per se,
+ whether it's finance, I call them or something like that.
+ I like to think that it's more marketing
+ versus other business domains versus, for example,
+ ops or product analytics.
+ There are some ways where I could see more predictive analytics
+ or more data science need within those business domains,
+ but in marketing, one of the core pillar,
+ a lot of the questions that we need to answer
+ are based on predictive analytics.
+ And if we want to be able to serve better marketing campaigns
+ or target the better customer, et cetera, et cetera,
+ we do need data science.
+ And if we need data science, generally,
+ we also need the entire data value stream.
+ So we need engineers to provide the data
+ to these data scientists.
+ And we need analysts that help translate
+ the output of the data science models to business insights
+ and to support leadership and stakeholders
+ in taking decisions.
+ Before getting into the projects
+ like marketing, mix modeling, et cetera,
+ that you just mentioned,
+ how is the team organized, the 12 people in the team?
+ Historically, we organized the team
+ based on the talent that we already had.
+ So when I joined, I had only two team members reporting to me,
+ one that adds more of a performance marketing background,
+ very much focused on everything that was a position
+ and another team member that had been
+ with the company for two or three years
+ that had a business background, finance background,
+ and that was way more knowledgeable
+ on everything that was related to our PNL,
+ to our engagement strategy, to our monetization strategy.
+ And we therefore decided when we scaled the team
+ to organize the team based on these two types of profile.
+ And so what we did at the time, so until 2023,
+ was we were based on what we call data domains.
+ And the person that was really good at acquisition
+ was leading what I called attract and acquire.
+ So the team that would analyze or build data products
+ to analyze the journey from being a prospect
+ to the acquisition of the customer.
+ So when we talk about, for example, KPIs,
+ it's everything from understanding brand awareness
+ to the number of signups and building all of the products
+ and insights around this.
+ And then the second team member was dedicated
+ to what we call engage and monetize.
+ So once we have the signup, how do we make sure
+ that the signup becomes the first time user,
+ does a transaction with the app?
+ To the very last touch point that we have with this customer.
+ So when this customer churn and closes their account.
+ For both teams, we add analytics engineering support
+ and data science support.
+ In 2023, the person responsible for engage and monetize
+ decided to leave the team.
+ It's had been six or seven years.
+ He had been with the business.
+ And so we went to a more traditional setup
+ of one lead for analytics engineering,
+ one lead for data science, one lead for analytics.
+ However, the domains, the horizontal domains
+ of attract and acquire and engage and monetize
+ were still splits because you do need
+ to develop a specific type of expertise in both of the domain
+ and therefore sometimes the profiles were a bit different.
+ So still within the function,
+ people would be specialized on specific domains.
+ Exactly, yeah.
+ What have been your biggest projects over the past few years?
+ I'll many focus in this podcast on everything
+ that's related to acquisition.
+ And when you think about marketing and acquisition in general,
+ you always need to answer two type of questions.
+ Or the CMO always has two types of questions.
+ The first one is how much does it cost to acquire one customer?
+ When I say acquiring one customer,
+ it's obviously at the lower level of granularity as well,
+ meaning in this country, in this marketing channel.
+ And then the second question that comes is,
+ where should I therefore invest my next year row?
+ Those two types of questions, there's two different models
+ that you need to build in order to answer them.
+ The first one is marketing next model.
+ Historically, we were able to do marketing attribution.
+ So telling where a customer comes from,
+ a lot through web tracking, if we're talking about e-commerce,
+ subscription based models, et cetera.
+ We were able to do it through web tracking
+ because there wasn't ad blockers across device journeys
+ that didn't exist that much in the past.
+ And privacy constraints allowed us to collect a lot of data
+ in order to tie those customer journeys
+ in order to give a customer acquisition cost.
+ Over the last years, the complexity increased
+ because of increased privacy as well as our marketing
+ changed towards more offline channels.
+ So for example, TV out of all media billboard campaigns
+ in the street, in the subway.
+ And these are activities that you cannot track online.
+ And therefore, we add to go back to a methodology
+ from the 1980s, which is called Marketing Mix Modeling,
+ where you will give to this model a lot of information
+ about your marketing campaigns, about your competitors' activity,
+ about some type of events, macroeconomic events,
+ for example, that can occur within a specific market
+ in order for them to give you the number of signups
+ and give a more accurate picture of the number of signups
+ that you're getting per marketing channel.
+ And so for getting this data, you would, for example,
+ plug yourself to sensor tower
+ if you want to get competitors' data
+ or tools like similar web in order to monitor
+ the number of visits that your competitors have.
+ You would need to build.
+ And so this is what we did internally,
+ a so-called growth event logger, which was basically
+ a library of all of the events that occurred within the business.
+ So for example, oh, we're getting a top priority incident
+ where the website is down for three hours.
+ Well, obviously, this does impact the number of signups
+ that we have.
+ And we need to be able to feed the model on this specific event
+ for it to understand that despite your I spend today,
+ well, the number of signups was lower.
+ You will also map every macroeconomic factor
+ within a specific country or set of countries.
+ For example, where a bank increasing interest rates
+ or decreasing interest rates from the European central bank
+ and to which we also react
+ by changing some of our savings products interest rates,
+ obviously, as a big impact on the way our sales
+ or our signups react.
+ So for this, we actually built this growth event logger.
+ Maybe just a quick question.
+ How does it materialize this model?
+ So I understand that you will collect everything that you can.
+ And then what is the model?
+ Is it some kind of a undershelf machine learning model?
+ What is it?
+ We discussed a bit the data collection
+ and everything that's needed in order to be fed into this model.
+ The model that we use, it's a model created by Google
+ and that we calibrate ourselves.
+ It's called Meridian, but most major advertising platforms
+ also have and provide Python packages
+ or our packages in order to build your MMM.
+ There's, for example, Robin from Facebook
+ with a Y, not an A, there's Orbit from Uber
+ and a very big new contestant is called PiMC3,
+ which is an independent consultant firm.
+ But so we have this Python model
+ that we calibrate and that we train based on our data
+ as an output metric, we are looking at the number of signups.
+ And so we give all of this data to the model,
+ we tell them this is the number of signups per day
+ that we have, figure out for these number of signups per day
+ based on all of the information that we gave you
+ which channels brought what number of signups.
+ But this gives us the actual number of signups per day
+ per channel and also gives us more insights
+ based on seasonality, for example, and explains to us,
+ this is signups that would have come organically,
+ it's your baseline, these are the signups
+ that you got thanks to specific events
+ or that you lost because of specific events,
+ those are the ones that are coming from media
+ and those are, for example, the ones coming from seasonality
+ because behaviors are not the same
+ at the beginning of the year versus the middle of the year.
+ And then you will also use it more like for forecasting purposes
+ like for direct the strategy.
+ We use it for budget optimization purposes.
+ There's methods that you can use with Meridian, for example,
+ where you give the number of spend to optimize towards
+ and they could give you the perfect channel mix.
+ The problem with that is that right now
+ we're still only answering the question
+ of the customer acquisition cost
+ and not necessarily the quality of the customers that we're getting,
+ which is, where do I want to invest my next Euro?
+ And for the next Euro that I want to invest,
+ I want to also be able to invest into profitable customers.
+ When you think about customer acquisition costs,
+ you need to always compare it to lifetime value.
+ So how much money will this customer bring me
+ over their entire lifetime so that you can have optimized
+ towards those profitable customers?
+ What you want is what we call the LTV over CAC ratio of more than one,
+ so that you're making money out of the customers that you acquire.
+ And so you're able to feed also this data
+ into the model to direct the recommendations
+ or is it like a bit like two separate analysis?
+ The target, the North Star, is to bridge the gap between the two of them.
+ This is not where we are at the moment.
+ Unfortunately, we've developed both models separately
+ with built a bridge between them using simple heuristics.
+ But yes, the main target is to be able to really bridge the gap between the two
+ is just that lifetime value in itself is already a very heavy project.
+ We called it internally more user value
+ because as we're still a young scale up,
+ obviously we cannot model lifetime of a customer
+ because, for example, in the banking industry,
+ it's well known that the average lifetime of a user is 15 years.
+ We have not been in business for 15 years.
+ So because of that, we decided to go with user value and to predict the profits
+ that a user would bring to us two years in the future after their conversion.
+ The reason we decided to go with two years was to be able to optimize
+ for a payback period of two years.
+ And so when we go back to this lifetime value slash user value ratio over CAC,
+ it means that if the user value of the user in the future in two years
+ is going to be 100 euros,
+ it means that if we invest 100 euros to acquire this customer today
+ in two years, we break even.
+ And so in two years and one month, we make money out of this user.
+ User value in itself was also quite heavy project
+ because it deals with the financials of the entire business.
+ And for this, we needed to start with what we call the user PNL.
+ So a table per user per month with each one of their costs and revenues,
+ whether it's customer service costs, which, for example,
+ are also a nightmare of their own to track and to organize,
+ or their different revenue streams,
+ whether it's the transaction fees that we're getting,
+ whether it's their membership subscription, et cetera, et cetera.
+ When you kickstart a project like this one,
+ there's a lot of stakeholders that are interested, not only in marketing,
+ but also in finance, for example.
+ And therefore, what you need to do in terms of data governance also
+ is to make sure that everyone is aligned on the methodologies
+ that you're going to use when doing the model and the prediction.
+ So some of the questions, for example,
+ when we're talking about membership revenues,
+ do I front load all of the membership revenues?
+ So on the monthly basis,
+ you're paying your membership subscription, right?
+ How should I do it when I model it?
+ Should I say that a, Robin is going to be our customer for a year.
+ So the 10-year-olds that he pays monthly,
+ I would just say it's 120-year-olds from the beginning,
+ because this is how finance does it.
+ Or should we do it on a month-per-month basis?
+ Because I don't want to model and realize revenue,
+ because maybe in three months,
+ Robin is going to disappear from our customer base.
+ This is the type of questions that we need to align
+ to make sure that there's a global understanding
+ between each one of the departments,
+ and so for this, for example,
+ we set up a steering committee
+ when we started the project originally,
+ made of the finance business partner, the CMO, the project lead,
+ who was basically documenting all of these information
+ across the project development.
+ And now that the project has been delivered,
+ now it's more in the maintenance stage.
+ The idea is to still have a proper governance framework around it
+ with each time there's an update in the P&L,
+ to be able to update downstream-impacted teams
+ about those changes.
+ So if, for example, we decide not to frontload anymore,
+ there needs to be communication lines
+ across every person impacted downstream
+ so that we can basically react to it.
+ And so the second main work stream, let's say,
+ that you mentioned was the data governance
+ and data quality work stream,
+ which is directly linked to these projects.
+ So maybe can you tell us more about that?
+ When we're talking about the marketing mix model,
+ we were talking about the different types of input
+ that go into it.
+ So this event log, this marketing spend
+ from each one of the marketing campaigns
+ and the competitors' activity.
+ Obviously, in order to be able to run the inference,
+ so run the model on a weekly basis,
+ we need to have proper data governance framework
+ and making sure that the pipelines are running every day
+ smoothly with data quality controls
+ and everything that goes with it.
+ There's also an entire part of making sure
+ that the marketing managers use naming conventions properly
+ because from the marketing campaigns that they run,
+ we're able to infer a lot of metadata
+ on the type of campaigns.
+ For example, say we're running a campaign on Facebook,
+ we will want to know for our marketing mix model,
+ what's the objective of the campaign?
+ Which is the audience of the campaign?
+ Who are we targeting?
+ What is the product that we're pushing?
+ What is the funnel in which we're showing this ad?
+ So what I mean by funnel is,
+ are we trying to build product awareness
+ or are we trying to build consideration of these users?
+ I haven't mentioned it before on the building
+ the marketing mix model per se,
+ but all of this information, this metadata,
+ is also something that we feed to the model
+ because the model needs to know
+ on a specific channel or objective level
+ what was the spend used for?
+ So when you spend money, for example, on out of home,
+ you're the market and your customers
+ are not going to react the same way
+ as if you spend money on Google ads.
+ Google ads is what we call a pull channel.
+ It's generally in order to acquire customers
+ that are already interested.
+ People discover the brand on out of home.
+ And so for this, we also had to build
+ a set of campaign management tools
+ that made sure that all of the campaigns on the platform
+ add the proper naming conventions
+ and that when we receive this data in the MM,
+ it's actually validated.
+ And the information is parsed correctly
+ when collecting this information.
+ It's really from the data collection
+ to the modeling to the serving of the information
+ that we needed to build, tests all along the way.
+ And what tech stack are you using at N26
+ to build all of that?
+ AWS is our main cloud provider.
+ Therefore, we use most of the tools
+ provided natively by AWS.
+ We're using SageMaker for everything
+ that's advanced analytics, machine learning,
+ doing causal inference computations.
+ It's really our ML platform.
+ S3 as our data lake and redshift as our data warehouse.
+ In general, because we're a bank,
+ we're trying to have as much as possible
+ as an open source slash source available philosophy
+ because in order to stay compliant,
+ we need to be able to do third-party risk assessments
+ easily when onboarding new tools.
+ And so sometimes, especially when we want to work
+ with a big provider for small contracts,
+ the number of questions that we ask those providers
+ in order to make sure that they can have business continuity
+ when working with us, et cetera,
+ is generally not worthwhile either for them or for us.
+ And so we always try to find something
+ where we can audit the code ourselves
+ and do the risk assessments ourselves
+ in order to onboard the new platforms.
+ As such, we're very much on a data open source stack
+ with Snowplow for everything that's tracking,
+ front end tracking, back end tracking,
+ open metadata as our data catalog,
+ DBT for our transformation layer,
+ meta-based for data visualization,
+ and for everything that's our ETL processes,
+ it's very much homemade,
+ but we're currently exploring Airflow
+ as our ETL platform going forward.
+ And what were the main challenges you'd say on this whole journey?
+ For the challenges, I'll actually split them into
+ one more professional and context-wise,
+ one more personal.
+ So for the professional one,
+ I'd say the instability of the environment,
+ it's a skate-up, things go fast, things change fast,
+ whether in terms of priorities,
+ in terms of the product direction, in terms of people.
+ And so you need to get used to this volatility in your job.
+ So when I talk about people, for example,
+ the stakeholders, the service providers,
+ or the leadership sometimes changed.
+ And because of that, while you're trying to maintain
+ as much as possible your little silo of data team
+ and of product delivery, obviously,
+ a product is only as good as when people use it
+ and are satisfied with it.
+ You need to restart every time education.
+ Trust when it comes to the numbers you're producing,
+ because sometimes it's predictive value,
+ and if the person doesn't like the numbers that they see,
+ well, you're in a pickle
+ and you need to re-educate them from the get-go.
+ And so basically building this mental resilience of always
+ and also the set of tools and frameworks,
+ education tools, for example, trainings, et cetera,
+ in order to make sure that whoever gets onboarded
+ in the team, externally to the team,
+ builds the trust towards what you built immediately
+ and can start adopting the products as fast as possible.
+ This was definitely one of the, if not the biggest challenge.
+ On the more technical side,
+ it's the product direction changing.
+ So I mentioned earlier the data PNL,
+ the user PNL and the lifetime value.
+ Well, in the last five years,
+ we've shipped a lot of consumer facing products.
+ I mentioned crypto trading, ETF trading, stop trading,
+ savings account, a lot of different products,
+ for which we need to be able to model the future profits
+ on a user level.
+ Well, how do we predict based on data that's in existing?
+ You need to model revenue streams,
+ you have zero historical data for them.
+ And so you end up mixing assumptions,
+ hyper and parameter tuning and doing a lot of rapid iterations
+ just to keep your models being relevant
+ and not losing the trust of your stakeholders.
+ This, you add the macro layer, the ECB rates,
+ treasury income shifting and you're always really rebuilding
+ the foundations that your models stand for.
+ And this can get, again, going back to resilience,
+ this can get a bit exhausting, obviously.
+ And right now I'm mentioning LTV.
+ We obviously had the same issues with marketing mix modeling
+ where you constantly have the ground moving,
+ enter your feed and you need to keep up the pace.
+ I talked about the professional context
+ on a more personal note.
+ About joining, having to lead a team of two individuals
+ being tasked with the way bigger mission of building a data
+ department, I think it's more of the classic imposter syndrome
+ and the difficulty of transitioning from a nice year role
+ to a small scale manager role to a function,
+ especially when you're surrounded by people
+ that are what you consider way more technical
+ or way smarter than you are.
+ It's that at some point you need to accept
+ that if you're granted those responsibilities,
+ ultimately it's not necessarily your own fault
+ and means that you're surrounded by people that trust you.
+ And so you can, well, delay the responsibility
+ of this choice to them and that you understand as well
+ that in order to help your team,
+ you don't need to be the smartest in the room anymore
+ or to try to keep up with their knowledge.
+ The only thing that you need to do
+ is to enable as best as possible and to help them.
+ And so each one of my one to one would start always
+ with the question of, hey, how can I help you?
+ And when you are doing this mental switch in your mind,
+ it obviously goes way better, but I think
+ that imposter syndrome is a bit classic
+ when in those circumstances.
+ So what's next for the team now?
+ So I focused a lot on acquisition related decision support
+ systems.
+ There's obviously quite some work
+ that I didn't mention on the engage in monetized front
+ such as next best action models, which
+ are a set of models that tell the life-likeled systems,
+ our CRMs, which communications to send to a customer,
+ depending on the state that they're in.
+ If they're about to turn, we detect
+ that they have a behavior that's unusual.
+ They haven't done any transaction in X time.
+ We say, hey, send them maybe this communication.
+ They use a specific product.
+ Maybe we want to upsell them to a different type of product.
+ So we have these current models.
+ The idea will be to basically scale up those models
+ with more machine learning.
+ And so really transitioning the team
+ from everything that's building products for human consumption,
+ to building products, to service consumption,
+ and machine consumption per se.
+ So next best action is our first step
+ of feeding machine information for automated decision making.
+ We're going to also apply that for the acquisition domain,
+ where we're basically going to start feeding back
+ some of those user value metrics, profitability metrics,
+ to the marketing platforms, so that instead
+ of us doing manual optimization,
+ the platforms themselves understand which type of consumer
+ they need to reach out to in order
+ to optimize towards user value.
+ I think that this is one of the big transitions
+ that the team is going to go through in the next month or years.
+ Is there a resource you'd like to recommend today?
+ I mean, I'm a big listener to the podcast,
+ so I'm going to skip on some of the classics,
+ like the data mesh book from Jamak Dugani,
+ fundamentals of data engineering from Jorise.
+ More generally, a book that shaped my vision of value streams
+ and now to get teams closer together,
+ is not related to data at all, but it's
+ called Phoenix Project from Jean Kim,
+ which was a book that basically described the birth of DevOps
+ per se, then you went to write a few other books,
+ like the DevOps and book, Accelerate, Unicorn Project.
+ And I think that this set of books is very, very interesting
+ in order to understand how to make teams more efficient overall.
+ And I think that there's a lot of learnings that we can get
+ from this and to apply in the data realm.
+ Organative books.
+ Amazing.
+ Actually, the Phoenix Project is right behind you.
+ I love it.
+ So where in line, I love it.
+ I will add the link in description.
+ And last, what do you enjoy most working in data?
+ I think it's being right between business and tech,
+ being able in the morning to have conversations about where
+ to spend your next Euro in marketing or to be in a room
+ where you discuss the creatives
+ that are going to be displayed somewhere.
+ And in the afternoon, to talk about, I don't know,
+ how to transition to a data mesh organization
+ within your business, or to solve more tech problems
+ in the evening, I think this is just amazing.
+ And the second thing as well is in comparison
+ to being part of a product team per se,
+ is that if we're talking about a machine learning model
+ or we're talking about a dashboard, your customer
+ is generally right in front of you
+ because it's internal to the business.
+ And so you have an immediate feedback loop
+ when you're building those products.
+ And so you can do the user research.
+ You can get the feedback from your stakeholders directly.
+ And this is wonderful.
+ Amazing.
+ Mattas, thank you so much for coming on the pod.
+ See you soon.
+ Thank you so much.
+ Thank you for listening to this episode.
+ Before the end, I have a small favor to ask you.
+ If it's not done yet, could you add five stars
+ and a review on Apple Podcast?
+ This is what helps me make known the podcast
+ and attract incredible guests.
+ Thanks and see you soon.
