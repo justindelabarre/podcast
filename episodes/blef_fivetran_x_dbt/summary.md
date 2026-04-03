@@ -1,7 +1,7 @@
-# BLEF — Christophe Blépharic : Fusion Fivetran × dbt
+# BLEF — Christophe Bléphari : Fusion Fivetran × dbt
 
 > **Podcast** : Data & IA  
-> **Invité** : Christophe Blépharic, fondateur de data.blef.fr & cofondateur de Nao  
+> **Invité** : Christophe Bléphari, fondateur de data.blef.fr & cofondateur de Nao  
 > **Sujet** : Analyse de la fusion Fivetran × dbt Labs — stratégie, impacts et news dbt (Coalesce)
 
 ---
